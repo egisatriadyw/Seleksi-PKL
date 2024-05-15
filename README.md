@@ -68,4 +68,3 @@ Bagian ini berisi project deployment MLflow menggunakan Docker. Berikut adalah b
 - [FTP](https://www.geeksforgeeks.org/file-transfer-protocol-ftp/)
 - [SFTP](https://www.ssh.com/academy/ssh/sftp-ssh-file-transfer-protocol)
 
-Terima kasih.
