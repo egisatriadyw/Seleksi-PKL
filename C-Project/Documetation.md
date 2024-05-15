@@ -1,16 +1,37 @@
-### Dokumentasi Setup MLflow dengan Docker
+# Dokumentasi Setup MLflow dengan Docker
 Dokumentasi ini memberikan instruksi untuk menyiapkan lingkungan MLflow yang di-Dockerize dengan MinIO sebagai penyimpanan objek dan PostgreSQL sebagai Database.
 
+
+---
+
+
+
+## Penjelasan Project
+Project ini menggunakan MlFlow yang terdapat pada library python dengan menggunakan base image python:3.10-slim-buster
+
+
+## Container
+MLflow Tracking Server terdiri dari empat kontainer Docker:
+1. **MLflow Server**: Menyediakan antarmuka untuk melacak dan mengelola eksperimen pembelajaran mesin.
+   
+2. **MinIO Object Storage Server**: Menyimpan artefak eksperimen seperti model dan catatan.
+
+3. **PostgreSQL Database Server**: Menyimpan metadata MLflow seperti informasi eksperimen dan run.
+
+4. **Wait-for-it.sh**: Skrip untuk menunggu hingga server MinIO siap sebelum menjalankan perintah konfigurasi.
+
+
+---
 #### Dockerfile (`Dockerfile`)
 
 ```dockerfile
 FROM python:3.10-slim-buster
 
-# Install dependensi sistem
+# Melakukan instalasi libpq-dev dan gcc untuk kebutuhan engine postgresql
 RUN apt-get update \
     && apt-get -y install libpq-dev gcc
 
-# install paket Python
+# install package Python
 COPY requirements.txt /tmp
 RUN pip install -r /tmp/requirements.txt
 ```
@@ -110,7 +131,7 @@ volumes:
     minio_data:
 ```
 
-#### Instruksi Penggunaan
+## Instruksi Penggunaan
 
 1. **Clone Project**: Melakukan download file ke folder tujuan di perangkat.
    ```
@@ -133,3 +154,6 @@ volumes:
 #### Catatan
 
 - Pastikan Docker dan Docker Compose terinstal dan dikonfigurasi dengan benar di sistem komputer.
+
+<img width="959" alt="image" src="https://github.com/egisatriadyw/Seleksi-PKL/assets/76691272/7135685a-1f6b-4911-981c-ef1234f1fca6">
+
