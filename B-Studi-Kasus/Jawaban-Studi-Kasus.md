@@ -18,7 +18,7 @@ Jika diminta untuk mengirim dan menerima file ke suatu server, beberapa protokol
 4. **Transfer File:** Client menggunakan perintah seperti `put` untuk mengunggah file ke server atau `get` untuk mengunduh file dari server.
 5. **Penutupan Koneksi:** Setelah selesai, koneksi SFTP ditutup.
 
-#### **2. Menulis Hasil Perintah Ping ke Sebuah File Teks** 
+#### **2. Menulis Hasil Perintah Ping ke Sebuah File Text** 
 
 Tahapan untuk menulis hasil perintah `ping` ke sebuah file teks adalah:
 
