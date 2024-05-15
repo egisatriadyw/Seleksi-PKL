@@ -10,7 +10,7 @@
 - [Referensi](#referensi)
 
 ## Pendahuluan
-Repository ini berisi jawaban untuk Seleksi PKL Polban 2024. Jawaban dibagi dalam tiga folder: A (Pertanyaan Dasar), B (Studi Kasus), dan C (Project). Setiap bagian terdapat dalam folder masing-masing sesuai instruksi.
+Repository ini berisi jawaban untuk Seleksi PKL Polban 2024 di PT Len IOT. Jawaban dibagi dalam tiga folder: A (Pertanyaan Dasar), B (Studi Kasus), dan C (Project). Setiap bagian terdapat dalam folder masing-masing sesuai instruksi.
 
 ## Bagian A - Pertanyaan Dasar
 Folder: `A-pertanyaan-dasar`
