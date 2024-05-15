@@ -2,9 +2,6 @@
 Dokumentasi ini memberikan instruksi untuk menyiapkan lingkungan MLflow yang di-Dockerize dengan MinIO sebagai penyimpanan objek dan PostgreSQL sebagai Database.
 
 
----
-
-
 
 ## Penjelasan Project
 Project ini menggunakan MlFlow yang terdapat pada library python dengan menggunakan base image python:3.10-slim-buster
