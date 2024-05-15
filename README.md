@@ -47,7 +47,7 @@ Bagian ini berisi project deployment MLflow menggunakan Docker. Berikut adalah b
 - **MinIO**: Penyimpanan objek yang kompatibel.
 - **PostgreSQL**: Database yang digunakan untuk menyimpan metadata MLflow.
 - **Visual Studio Code**: Alat untuk mengedit soure code.
-- **Azure Virtual Machine**: tools untuk mebuat .
+- **Azure Virtual Machine**: tools untuk server saat melakukan deploy publik .
 
 ## Sistem Operasi yang Digunakan
 - **Windows 11** : Sistem Operasi yang digunakan untuk pengembangan dan deployment.
