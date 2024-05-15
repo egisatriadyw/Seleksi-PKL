@@ -1,5 +1,4 @@
 ### Dokumentasi Setup MLflow dengan Docker
-
 Dokumentasi ini memberikan instruksi untuk menyiapkan lingkungan MLflow yang di-Dockerize dengan MinIO sebagai penyimpanan objek dan PostgreSQL sebagai Database.
 
 #### Dockerfile (`Dockerfile`)
@@ -120,18 +119,17 @@ volumes:
 
 2. **Change Directory**: Change direktori ke dalam folder C-Project
 
-   ```cd C-Project```
+   ```
+   $ cd C-Project
+   ```
   
 4. **Memulai Layanan**: Mulai layanan Docker menggunakan Docker Compose:
    ```
-   docker-compose up -d
-   ```
-
+   docker-compose up -d --build
+   ``` 
 5. **Akses UI MLflow**: UI MLflow akan dapat diakses di `http://localhost:5000`.
-
-6. **Menggunakan MLflow**: Sekarang Anda dapat menggunakan MLflow untuk melacak dan mengelola eksperimen pembelajaran mesin Anda.
+6. **Akses UI MinIO**:  UI MinIO dapat di akses di `http://localhost:9000`.
 
 #### Catatan
 
-- Pastikan Docker dan Docker Compose terinstal dan dikonfigurasi dengan benar di sistem.
-- Sesuaikan parameter konfigurasi apa pun yang diperlukan untuk kasus penggunaan spesifik.
+- Pastikan Docker dan Docker Compose terinstal dan dikonfigurasi dengan benar di sistem komputer.
