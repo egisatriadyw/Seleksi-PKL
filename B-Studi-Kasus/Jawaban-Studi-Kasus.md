@@ -47,4 +47,4 @@ Tahapan untuk menulis hasil perintah `ping` ke sebuah file teks adalah:
    - Tekan `Enter` untuk menjalankan perintah tersebut.
 
 **Kesimpulan:**
-Hasil ping akan tersimpan dalam file teks yang dapat Anda buka dan baca menggunakan editor teks atau program lainnya.
+Hasil ping akan tersimpan dalam file teks yang dapat kita buka dan baca menggunakan editor teks atau program lainnya.
