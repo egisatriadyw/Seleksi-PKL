@@ -154,15 +154,23 @@ volumes:
 #### Catatan
 
 - Pastikan Docker dan Docker Compose terinstal dan dikonfigurasi dengan benar di sistem komputer.
+  
+- Jika ada perbaikan kode, Lakukan Compose down terlebih dahulu
+  ```
+   docker-compose down
+  ``` 
 
-#### Hasil Deploy
+### Hasil Deploy
 
-MinIO Login Page: 
+
+#### MinIO Login Page: 
 <img width="959" alt="image" src="https://github.com/egisatriadyw/Seleksi-PKL/assets/76691272/7135685a-1f6b-4911-981c-ef1234f1fca6">
 
-MinIO Dashboard Page:
+---
+#### MinIO Dashboard Page:
 ![image](https://github.com/egisatriadyw/Seleksi-PKL/assets/76691272/07488ec4-caeb-4126-a3a4-19d6f828277b)
 
-MlFlow Page:
+---
+#### MlFlow Page:
 ![image](https://github.com/egisatriadyw/Seleksi-PKL/assets/76691272/c8308322-86ba-4b7c-a389-594b8e73bcc2)
 
