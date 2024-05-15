@@ -1,6 +1,6 @@
 # Seleksi PKL Polban 2024 - [Egi Satria DHarma Yudha Wicaksana]
 
-## Content Readme
+## Content
 - [Pendahuluan](#pendahuluan)
 - [Bagian A - Pertanyaan Dasar](#bagian-a---pertanyaan-dasar)
 - [Bagian B - Studi Kasus](#bagian-b---studi-kasus)
